@@ -4,7 +4,12 @@
  * Released under terms of GNU/GPL ver3 or higher
  */
 
-// Includes fade in & fade out effects
 @import "effects/_fade";
 
 @import "effects/_pulse";
+
+.lets-move.infinite
+{
+    -webkit-animation-iteration-count: infinite;
+            animation-iteration-count: infinite;
+}
