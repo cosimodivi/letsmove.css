@@ -1,11 +1,11 @@
 @keyframes pulse
 {
-  50% { transform: scale(1.1, 1.1); }
-  100% { transform: scale(1, 1); }
+    50% { transform: scale(1.1, 1.1); }
+    100% { transform: scale(1, 1); }
 }
 
 .lets-move.pulse
 {
-  -webkit-animation: pulse 1s;
-          animation: pulse 1s;
+    -webkit-animation: pulse 1s;
+            animation: pulse 1s;
 }

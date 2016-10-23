@@ -1,23 +1,23 @@
 @keyframes fadeIn
 {
-  0% { opacity: 0; }
-  100% { opacity: 1; }
+    0% { opacity: 0; }
+    100% { opacity: 1; }
 }
 
 @keyframes fadeOut
 {
-  0% { opacity: 1; }
-  100% { opacity: 0; }
+    0% { opacity: 1; }
+    100% { opacity: 0; }
 }
 
 .lets-move.fade-in
 {
-  -webkit-animation: fadeIn 2s;
-          animation: fadeIn 2s;
+    -webkit-animation: fadeIn 2s;
+            animation: fadeIn 2s;
 }
 
 .lets-move.fade-out
 {
-  -webkit-animation: fadeOut 2s;
-          animation: fadeOut 2s;
+    -webkit-animation: fadeOut 2s;
+            animation: fadeOut 2s;
 }
