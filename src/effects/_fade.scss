@@ -21,3 +21,18 @@
     -webkit-animation: fadeOut 2s;
             animation: fadeOut 2s;
 }
+
+@for $i from 1 through 10
+{
+    .lets-move.fade-in-#{$i}s
+    {
+        -webkit-animation: fadeIn #{$i}s;
+                animation: fadeIn #{$i}s;
+    }
+
+    .lets-move.fade-out-#{$i}s
+    {
+        -webkit-animation: fadeOut #{$i}s;
+                animation: fadeOut #{$i}s;
+    }
+}

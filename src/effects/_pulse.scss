@@ -9,3 +9,12 @@
     -webkit-animation: pulse 1s;
             animation: pulse 1s;
 }
+
+@for $i from 1 through 10
+{
+    .lets-move.pulse-#{$i}s
+    {
+        -webkit-animation: pulse #{$i}s;
+                animation: pulse #{$i}s;
+    }
+}
